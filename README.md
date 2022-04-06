@@ -11,8 +11,14 @@ This is the implementation of paper [Hyperbolic Image Segmentation (CVPR 2022)](
 - <b>hesp </b>: the actual code containing layers, models, losses, etc.
 - <b>samples </b>: helper files, bash scripts, and train.py
 
-## How to use?
+## How to use the code?
 
+For installation, first run <code> pip install -e .</code>  to register the package.
+
+Then, run <code>sh requirements.sh</code> to install the requirements. 
+
+The code needs Tensorflow 1, 
+the experiments are performed using Tensorflow 1.14. The tensorflow installed by the script is tensorflow-cpu. Change the commands to install tensorflow on GPU.
 
 
 ## Citation
