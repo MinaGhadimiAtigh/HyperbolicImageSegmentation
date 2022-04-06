@@ -11,6 +11,8 @@ This is the implementation of paper [Hyperbolic Image Segmentation (CVPR 2022)](
 - <b>hesp </b>: the actual code containing layers, models, losses, etc.
 - <b>samples </b>: helper files, bash scripts, and train.py
 
+**Code is not complete yet.**
+
 ## How to use the code?
 
 For installation, first run <code> pip install -e .</code>  to register the package.
@@ -32,5 +34,3 @@ Please consider citing this work using this BibTex entry,
   year={2022}
 }
 ```
-
-Code will be added soon.
