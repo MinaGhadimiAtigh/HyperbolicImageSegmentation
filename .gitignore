@@ -10,7 +10,6 @@ Poincare_HESP.egg-info
 /datasets/coco/coco_data/coco_val.record
 /datasets/ADE/ade_data/ade_train.record
 /datasets/ADE/ade_data/ade_val.record
-/samples/*
 
 *.pyc
 *.log
