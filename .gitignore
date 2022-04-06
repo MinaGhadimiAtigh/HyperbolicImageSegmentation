@@ -1,6 +1,6 @@
 venv
 .idea
-Poincare_HESP.egg-info
+Poincare_HESP.egg-info/
 
 /datasets/coco/coco_data/back/
 /save/hierarchical_coco_d256_hyperbolic_c1.0_staged_os16_resnet_v2_101_bs5_lr0.001/
