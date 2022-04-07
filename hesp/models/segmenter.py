@@ -5,7 +5,12 @@ from collections import defaultdict
 
 import numpy as np
 import tensorflow as tf
+from tensorflow.contrib import layers as layers_lib
+from tensorflow.python.ops.metrics_impl import _streaming_confusion_matrix
+
+from hesp.config.config import Config
 from hesp.embedding_space.embedding_space import EmbeddingSpace
+from hesp.hierarchy.tree import Tree
 from hesp.models.abstract_model import AbstractModel
 from hesp.models.embedding_functions.deeplab import deeplab_v3_plus
 # IF YOU WANT TO TRAIN BAYESIAN, UNCOMMENT THIS
@@ -14,11 +19,6 @@ from hesp.util.data_helpers import parse_record, get_filenames, preprocess_image
 from hesp.util.layers import get_hyp_update_ops
 from hesp.util.loss import CCE
 from hesp.util.metrics import compute_mean_iou, tf_metrics, cls_mean_iou_npy, hierarchical_cm, npy_metrics
-from tensorflow.contrib import layers as layers_lib
-from tensorflow.python.ops.metrics_impl import _streaming_confusion_matrix
-
-from hesp.config.config import Config
-from hesp.hierarchy.tree import Tree
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
