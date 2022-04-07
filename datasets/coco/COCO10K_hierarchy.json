@@ -1,0 +1,299 @@
+{
+  "root": {
+    "indoor": {
+      "furniture-stuff": {
+        "furniture-other": {},
+        "furniture-surface": {
+          "counter": {},
+          "desk-stuff": {},
+          "table": {}
+        },
+        "furniture-wall": {
+          "cabinet": {},
+          "cupboard": {},
+          "door-stuff": {},
+          "mirror-stuff": {},
+          "shelf": {}
+        },
+        "light": {},
+        "stairs": {},
+        "textile": {
+          "comfort": {
+            "blanket": {},
+            "pillow": {}
+          },
+          "decorative": {
+            "banner": {},
+            "curtain": {},
+            "mat": {},
+            "rug": {}
+          },
+          "textile-other": {},
+          "used": {
+            "cloth": {},
+            "clothes": {},
+            "napkin": {},
+            "towel": {}
+          }
+        }
+      },
+      "rawmaterial": {
+        "cardboard": {},
+        "metal": {},
+        "paper": {},
+        "plastic": {}
+      },
+      "room": {
+        "ceiling": {
+          "ceiling-other": {},
+          "ceiling-tile": {}
+        },
+        "floor": {
+          "carpet": {},
+          "floor-marble": {},
+          "floor-other": {},
+          "floor-stone": {},
+          "floor-tile": {},
+          "floor-wood": {}
+        },
+        "wall": {
+          "wall-brick": {},
+          "wall-concrete": {},
+          "wall-other": {},
+          "wall-panel": {},
+          "wall-stone": {},
+          "wall-tile": {},
+          "wall-wood": {}
+        },
+        "window": {
+          "window-blind": {},
+          "window-other": {}
+        }
+      }
+    },
+    "instrumentality": {
+      "instrumentality-indoor": {
+        "instrumentality-indoor-furniture": {
+          "appliance": {
+            "microwave": {},
+            "oven": {},
+            "refrigerator": {},
+            "sink": {},
+            "toaster": {}
+          },
+          "furniture-things": {
+            "bed": {},
+            "chair": {},
+            "couch": {},
+            "dining_table": {},
+            "potted_plant": {},
+            "toilet": {}
+          }
+        },
+        "instrumentality-indoor-items": {
+          "electronic": {
+            "cell_phone": {},
+            "keyboard": {},
+            "laptop": {},
+            "mouse": {},
+            "remote": {},
+            "tv": {}
+          },
+          "indoor-things": {
+            "book": {},
+            "clock": {},
+            "hair_drier": {},
+            "scissors": {},
+            "teddy_bear": {},
+            "toothbrush": {},
+            "vase": {}
+          },
+          "kitchen": {
+            "bottle": {},
+            "bowl": {},
+            "cup": {},
+            "fork": {},
+            "knife": {},
+            "spoon": {},
+            "wine_glass": {}
+          }
+        }
+      },
+      "instrumentality-outdoor": {
+        "accessory": {
+          "backpack": {},
+          "handbag": {},
+          "suitcase": {},
+          "tie": {},
+          "umbrella": {}
+        },
+        "sports": {
+          "boards": {
+            "skateboard": {},
+            "skis": {},
+            "snowboard": {},
+            "surfboard": {}
+          },
+          "sports-implement": {
+            "baseball_bat": {},
+            "baseball_glove": {},
+            "tennis_racket": {}
+          },
+          "throwable": {
+            "frisbee": {},
+            "kite": {},
+            "sports_ball": {}
+          }
+        }
+      }
+    },
+    "organic": {
+      "animal": {
+        "person": {},
+        "vertebrate": {
+          "bird": {},
+          "placental": {
+            "carnivore": {
+              "bear": {},
+              "cat": {},
+              "dog": {}
+            },
+            "elephant": {},
+            "ungulate": {
+              "covid": {
+                "cow": {},
+                "sheep": {}
+              },
+              "equine": {
+                "horse": {},
+                "zebra": {}
+              },
+              "giraffe": {}
+            }
+          }
+        }
+      },
+      "food": {
+        "dish": {
+          "cake": {},
+          "donut": {},
+          "hot_dog": {},
+          "pizza": {},
+          "sandwich": {}
+        },
+        "food-other": {},
+        "fruits": {
+          "apple": {},
+          "banana": {},
+          "fruit": {},
+          "orange": {}
+        },
+        "vegetables": {
+          "broccoli": {},
+          "carrot": {},
+          "salad": {},
+          "vegetable": {}
+        }
+      },
+      "plant": {
+        "branch": {},
+        "bush": {},
+        "flower": {},
+        "grass": {},
+        "leaves": {},
+        "moss": {},
+        "plant-other": {},
+        "straw": {},
+        "tree": {}
+      }
+    },
+    "outdoor": {
+      "outdoor-stuff": {
+        "building-stuff": {
+          "building": {
+            "bridge": {},
+            "building-other": {},
+            "house": {},
+            "roof": {},
+            "skyscraper": {},
+            "tent": {}
+          },
+          "structural": {
+            "cage": {},
+            "fence": {},
+            "net": {},
+            "railing": {},
+            "structural-other": {}
+          }
+        },
+        "matter": {
+          "ground": {
+            "ground-other": {},
+            "surface": {
+              "pavement": {},
+              "platform": {},
+              "playingfield": {},
+              "railroad": {},
+              "road": {}
+            },
+            "texture": {
+              "dirt": {},
+              "gravel": {},
+              "mud": {},
+              "sand": {},
+              "snow": {}
+            }
+          },
+          "sky": {
+            "clouds": {},
+            "sky-other": {}
+          },
+          "solid": {
+            "hill": {},
+            "mountain": {},
+            "rock": {},
+            "solid-other": {},
+            "stone": {},
+            "wood": {}
+          },
+          "water": {
+            "fog": {},
+            "river": {},
+            "sea": {},
+            "water-other": {},
+            "waterdrops": {}
+          }
+        }
+      },
+      "outdoor-things": {
+        "street": {
+          "bench": {},
+          "fire_hydrant": {},
+          "parking_meter": {},
+          "stop_sign": {},
+          "traffic_light": {}
+        },
+        "vehicle": {
+          "craft": {
+            "airplane": {},
+            "boat": {}
+          },
+          "wheeled": {
+            "bicycle": {},
+            "self-propelled": {
+              "motored": {
+                "motorcar": {
+                  "bus": {},
+                  "car": {},
+                  "truck": {}
+                },
+                "motorcycle": {}
+              },
+              "train": {}
+            }
+          }
+        }
+      }
+    }
+  }
+}
