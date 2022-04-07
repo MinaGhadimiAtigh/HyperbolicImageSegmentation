@@ -83,3 +83,4 @@ for image_path in image_paths:
 
     plt.imshow(confidence_map, cmap='gist_earth')
     plt.show()
+#     TODO check the output
