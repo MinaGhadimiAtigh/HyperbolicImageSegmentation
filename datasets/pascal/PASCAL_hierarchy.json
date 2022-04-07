@@ -1,0 +1,53 @@
+{
+  "root": {
+    "inside": {
+      "bottle": {},
+      "furniture": {
+        "chair": {},
+        "couch": {},
+        "dining_table": {},
+        "pot_plant": {}
+      },
+      "television": {}
+    },
+    "organic": {
+      "person": {},
+      "vertebrate": {
+        "bird": {},
+        "placental": {
+          "carnivore": {
+            "dog": {},
+            "cat": {}
+          },
+          "ungulate": {
+            "bovid": {
+              "cow": {},
+              "sheep": {}
+            },
+            "horse": {}
+          }
+        }
+      }
+    },
+    "unlabeled": {},
+    "vehicle": {
+      "craft": {
+        "airplane": {},
+        "boat": {}
+      },
+      "wheeled": {
+        "bicycle": {},
+        "self-propelled": {
+          "locomotive": {},
+          "motored": {
+            "motorcar": {
+              "bus": {},
+              "car": {}
+            },
+            "motorcycle": {}
+          }
+        }
+      }
+    }
+  }
+}
