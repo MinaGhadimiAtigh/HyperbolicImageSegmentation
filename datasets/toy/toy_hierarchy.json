@@ -1,0 +1,15 @@
+{
+  "root": {
+    "organism": {
+      "mammal": {
+        "cat": {},
+        "dog": {}
+      },
+      "fish": {}
+    },
+    "vehicle": {
+      "car": {},
+      "train": {}
+    }
+  }
+}
