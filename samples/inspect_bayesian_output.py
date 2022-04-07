@@ -84,4 +84,4 @@ for image_path in image_paths:
             sum_prob_over_T)
     np.save(image_path.split('/')[-1].split('.')[0] + '_Entropy_dim' + str(config.embedding_space._DIM) + '.npy',
             Entropy)
-#     TODO check the output
+# TODO check the output
