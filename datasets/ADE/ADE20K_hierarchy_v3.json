@@ -1,0 +1,256 @@
+{
+  "root": {
+    "artifact": {
+      "construction": {
+        "wall": {},
+        "building": {},
+        "house": {},
+        "skyscraper": {},
+        "tower": {}
+      },
+      "column_kinds": {
+        "stand": {},
+        "column": {},
+        "pole": {}
+      },
+      "area": {
+        "fireplace": {},
+        "booth": {}
+      },
+      "construction_surface": {
+        "ceiling": {},
+        "floor": {}
+      },
+      "on_surface": {
+        "painting": {},
+        "window": {},
+        "mirror": {}
+      },
+      "barrier": {
+        "movable_barrier": {
+          "door": {},
+          "screen_door": {}
+        },
+        "fence": {},
+        "railing": {},
+        "bar": {},
+        "handrail": {}
+      },
+      "shelter": {
+        "hut": {},
+        "tent": {},
+        "canopy": {},
+        "awning": {}
+      },
+      "general_way": {
+        "way": {
+          "path": {},
+          "road": {},
+          "pavement": {},
+          "runway": {},
+          "dirt_track": {},
+          "bridge": {},
+          "conveyer_belt": {}
+        },
+        "stair_way": {
+          "stairwell": {},
+          "stairs": {},
+          "escalator": {},
+          "step": {}
+        }
+      },
+      "platform": {
+        "stage": {},
+        "pier": {},
+        "fountain": {},
+        "swimming_pool": {}
+      }
+    },
+    "earth": {
+      "body_of_water": {
+        "sea": {},
+        "river": {},
+        "waterfall": {},
+        "lake": {},
+        "water": {}
+      },
+      "nature": {
+        "sky": {},
+        "material": {
+          "ground": {},
+          "soil": {},
+          "rock": {},
+          "sand": {}
+        },
+        "geological_formation": {
+          "mountain": {},
+          "hill": {},
+          "field": {}
+        }
+      },
+      "organism": {
+        "vascular_plant": {
+          "woody_plant": {
+            "tree": {},
+            "palm": {}
+          },
+          "plant": {},
+          "grass": {},
+          "flower": {}
+        },
+        "person": {},
+        "animal": {}
+      },
+      "food": {}
+    },
+    "house_furniture": {
+      "cloth_material": {
+        "covering": {
+          "curtain": {},
+          "carpet": {},
+          "cloth_covering": {
+            "blanket": {},
+            "towel": {},
+            "clothes": {}
+          }
+        },
+        "bed_furniture": {
+          "pillow": {},
+          "cushion": {}
+        }
+      },
+      "big_furniture": {
+        "white_goods": {
+          "refrigerator": {},
+          "washing_machine": {},
+          "dishwasher": {}
+        },
+        "kitchen_appliance": {
+          "stove": {},
+          "oven": {},
+          "microwave": {}
+        },
+        "exhaust_hood": {}
+      },
+      "container": {
+        "box": {},
+        "case": {},
+        "basket": {},
+        "bag": {},
+        "tray": {},
+        "bin": {},
+        "vase": {},
+        "barrel": {},
+        "pot": {},
+        "water_container": {
+          "drinking_glass": {},
+          "bottle": {}
+        }
+      },
+      "sitting": {
+        "seat": {},
+        "chair": {},
+        "armchair": {},
+        "swivel_chair": {},
+        "sofa": {},
+        "bench": {},
+        "ottoman": {},
+        "stool": {}
+      },
+      "shelf_furniture": {
+        "cloth_shelf": {
+          "wardrobe": {},
+          "dresser": {}
+        },
+        "bookcase": {},
+        "shelf": {},
+        "kitchen_shelf": {
+          "buffet": {},
+          "cabinet": {},
+          "kitchen_island": {}
+        }
+      },
+      "plumbing": {
+        "sink": {},
+        "toilet": {},
+        "shower": {},
+        "bathtub": {},
+        "tank": {}
+      },
+      "sleeping": {
+        "cradle": {},
+        "bed": {}
+      },
+      "table_surface": {
+        "countertop": {},
+        "table": {},
+        "desk": {},
+        "counter": {},
+        "pool_table": {},
+        "coffee_table": {},
+        "pedestal_table": {}
+      }
+    },
+    "general_entertain": {
+      "art_creation": {
+        "sculpture": {},
+        "book": {}
+      },
+      "entertainment": {
+        "tv": {},
+        "ball": {},
+        "arcade_machine": {},
+        "toy": {}
+      }
+    },
+    "vehicle": {
+      "wheeled_vehicle": {
+        "motor_vehicle": {
+          "car": {},
+          "truck": {},
+          "van": {},
+          "bus": {},
+          "motorcycle": {}
+        },
+        "bicycle": {}
+      },
+      "non_wheeled_vehicle": {
+        "water_vehicle": {
+          "boat": {},
+          "ship": {}
+        },
+        "airplane": {}
+      }
+    },
+    "general_device": {
+      "source_of_illumination": {
+        "lamp": {},
+        "streetlight": {},
+        "light": {},
+        "sconce": {},
+        "chandelier": {}
+      },
+      "screen_kinds": {
+        "monitor": {},
+        "computer_screen": {},
+        "blind": {},
+        "screen": {},
+        "computer": {}
+      },
+      "device": {
+        "fan": {},
+        "radiator": {},
+        "plate": {}
+      },
+      "communication": {
+        "sign": {},
+        "poster": {},
+        "traffic_light": {},
+        "bulletin": {},
+        "flag": {},
+        "clock": {},
+        "brand": {}
+      }
+    }
+  }
+}
