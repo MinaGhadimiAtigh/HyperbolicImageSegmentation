@@ -7,7 +7,7 @@ This is the implementation of paper [Hyperbolic Image Segmentation (CVPR 2022)](
 ## Repository structure 
 
 - <b>assets </b>: images and stuff
-- <b>datasets </b>: contains integer to class dictionaries, and JSON files that contain the hierarchies used. (ADE does not have one yet)
+- <b>datasets </b>: contains integer to class dictionaries, and JSON files that contain the hierarchies used.
 - <b>hesp </b>: the actual code containing layers, models, losses, etc.
 - <b>samples </b>: helper files, bash scripts, and train.py
 
