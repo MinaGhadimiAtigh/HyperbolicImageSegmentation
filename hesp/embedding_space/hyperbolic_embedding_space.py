@@ -28,7 +28,7 @@ class HyperbolicEmbeddingSpace(AbstractEmbeddingSpace):
             shape=[],
             initializer=curv_init,
             dtype=tf.float32,
-            trainable=(self.config.prototyper._TRAIN_CURVATURE and train)
+            trainable=train
         )
 
     def project(self, embeddings, curvature=0):

@@ -40,7 +40,6 @@ class ModelFactory:
             'tree': class_tree,
             'config': config,
             'train_embedding_space': train_embedding_space,
-            # 'prototype_path': prototype_path
-            # TODO check where prototype path is used
+            'prototype_path': prototype_path
         }
         return model_dict[mode](**model_params)
