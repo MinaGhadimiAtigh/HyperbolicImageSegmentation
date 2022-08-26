@@ -30,6 +30,8 @@ The code will train and test a hyperbolic model using coco stuff dataset, with b
 normalization, output stride 16. The result will be saved in a folder named 
 <code>poincare-hesp/save/segmenter/hierarchical_coco_d256_hyperbolic_c0.1_os16_resnet_v2_101_bs5_lr0.001_fbnTrue_fbbFalse_check</code> in the samples directory.
 
+To get the dataset tfrecord files and resnet pretrained weights, use [this link](https://drive.google.com/drive/folders/1AggSC8fKCgRsfYjTjVRjoOfa85g2KBBu?usp=sharing).
+
 ## Citation
 Please consider citing this work using this BibTex entry,
 
